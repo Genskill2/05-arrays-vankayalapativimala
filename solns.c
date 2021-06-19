@@ -1,6 +1,6 @@
 /* Enter your solutions in this file */
 #include <stdio.h>
-int isprime(int);
+
 
 int factors(int n, int ret[])
 {  int p=0;
