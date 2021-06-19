@@ -3,7 +3,7 @@
 
 int main(){
 float average(int a[],int n){
-  float sum=o,average;
+  float average,sum=0;
   for (int i=0;i<n;i++){
     sum=sum+a[i];
   }
