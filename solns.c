@@ -31,7 +31,8 @@ int mode(int arr[], int len)
 {
     int arrno[len];
     int n,count=0,a;
-    for( int i=0; i<len; i++){
+    for( int i=0; i<len; i++)
+    {
     n= arr[i];
     for(int j=0; j<len; j++)
     {    if( arr[i]==arr[j])
