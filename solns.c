@@ -1,6 +1,14 @@
 /* Enter your solutions in this file */
 #include <stdio.h>
 
+float average(int a[],int n){
+  float sum=o,average;
+  for (int i=0;i<n;i++){
+    sum=sum+a[i];
+  }
+  average=sum/n;
+  return average;
+}
 
 int factors(int n, int ret[])
 {  int p=0;
@@ -95,11 +103,4 @@ return minimum;
 
 
 
- float average(int a[],int n){
-  float sum=o,average;
-  for (int i=0;i<n;i++){
-    sum=sum+a[i];
-  }
-  average=sum/n;
-  return average;
-}
+ 
