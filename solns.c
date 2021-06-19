@@ -19,8 +19,7 @@ int min(int arr[], int len)
     }
     return min;
 }
-float average(int arr[], int len)
-{
+float average(int arr[], int len){
     float average, sum=0;
     for( int i=0; i<len; i++)
     sum+=arr[i];
