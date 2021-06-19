@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <assert.h>
+
 
 int main(){
 float average(int a[],int n){
