@@ -9,4 +9,5 @@ float average(int a[],int n){
   }
   average=sum/n;
   return average;
+ }
 }
