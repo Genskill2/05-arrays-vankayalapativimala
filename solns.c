@@ -3,7 +3,7 @@
 
 int max(int arr[], int len)
 {
-      int max=arr[0];
+      max=arr[0];
     for(int i=0; i<len; i++)
     { if (max < arr[i])
        max=arr[i];
@@ -12,7 +12,7 @@ int max(int arr[], int len)
 }
 int min(int arr[], int len)
 {
-    int min= arr[0];
+     min= arr[0];
     for(int i=0; i<len; i++)
     { if (arr[i]<min)
        min = arr[i];
