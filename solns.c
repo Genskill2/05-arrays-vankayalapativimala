@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int isprime(i);
+
 int max(int arr[], int len)
 {
       int max=arr[0];
