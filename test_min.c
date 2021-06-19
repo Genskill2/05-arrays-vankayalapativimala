@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <assert.h>
 
-
 int min(int [], int );
 
 int main(void) {
